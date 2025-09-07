@@ -6,7 +6,7 @@ For this project I followed the following steps outlined in "An Introduction to 
 2. Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid, one with Xs and the other with Os. Tic-tac-toe has 9 squares, therefore there are approximately 3⁹ = 19683 states (and 9 actions, of course). Therefore, we have a table with 19683 x 9 = 177147 cells.
 ## Initialize q-table of shape (states, actions), which is (3 ** 9, 9)
 q_table = np.zeros((3 ** 9, 9))
-# Learning parameters
+### Learning parameters
 episodes = 1000000
 learning_rate = 0.01
 num_random_episodes = 10000
